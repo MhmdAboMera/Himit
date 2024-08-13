@@ -68,11 +68,17 @@ const router = createBrowserRouter(
         {/*About Manager Drobdawn */}
         <Route path="manager/:manager" element={<Managers />} />
         {/* هيكل مجلس الاداره */}
-        <Route path="InstituteBoardDirectors" element={<InstituteBoardDirectors />} />
+        <Route
+          path="InstituteBoardDirectors"
+          element={<InstituteBoardDirectors />}
+        />
         {/* الهيكل التنظيمي */}
         <Route path="OrganizationalChart" element={<OrganizationalChart />} />
         {/* الجهاز الاداري */}
-        <Route path="AdministrativeApparatus" element={<AdministrativeApparatus />} />
+        <Route
+          path="AdministrativeApparatus"
+          element={<AdministrativeApparatus />}
+        />
         {/*  الوثائق السياسات والآليات */}
         <Route path="Evidence_and_policy" element={<EvidencePolicy />} />
         <Route path="research/:researchName" element={<ResearchTables />} />
@@ -101,8 +107,14 @@ const router = createBrowserRouter(
         <Route index path=":unitName" element={<MainUnits />} />
         <Route path=":unitName/ManagerDeputy" element={<ManagerDeputy />} />
         <Route path=":unitName/BoardStructure" element={<BoardStructure />} />
-        <Route path=":unitName/InternalRegulationFile" element={<InternalRegulationFile />} />
-        <Route path=":unitName/administrativeStructureFile" element={<InternalRegulationFile />} />
+        <Route
+          path=":unitName/InternalRegulationFile"
+          element={<InternalRegulationFile />}
+        />
+        <Route
+          path=":unitName/administrativeStructureFile"
+          element={<InternalRegulationFile />}
+        />
         <Route path=":unitName/TrainingCourses" element={<TrainingCourses />} />
       </Route>
       {/* Education and students  */}
@@ -112,11 +124,18 @@ const router = createBrowserRouter(
       </Route>
       {/* Services */}
       <Route path="Services" element={<ServicesLayout />}>
-        <Route index element={<Navigate to="/Services/MilitaryEducation" replace />} />
-        <Route  path="MilitaryEducation" element={<MilitaryEducation />} />
-        <Route  path="Suggestions_Complaints" element={ <Suggestions_Complaints/>} />
+        <Route
+          index
+          element={<Navigate to="/Services/MilitaryEducation" replace />}
+        />
+        <Route path="MilitaryEducation" element={<MilitaryEducation />} />
+        <Route
+          path="Suggestions_Complaints"
+          element={<Suggestions_Complaints />}
+        />
         <Route path="survey" element={<Survey />} />
       </Route>
+      {/* Page Not Found */}
       {/* Page Not Found */}
       <Route path="*" element={<PageNotFound />} />
     </>
