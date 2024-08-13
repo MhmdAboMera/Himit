@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import Aos from "aos";
 import "aos/dist/aos.css";
