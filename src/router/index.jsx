@@ -55,7 +55,7 @@ const router = createBrowserRouter(
       {/* Root Layout */}
       {/* ErrorHandler to error page  */}
       <Route path="/" element={<Layout />} errorElement={<ErrorHandler />}>
-        <Route index element={<HomePage />} />
+        <Route index path="/" element={<HomePage />} />
         <Route path="about" element={<AboutPage />} />
         <Route path="units" element={<Units />} />
         <Route path="news/:catName" element={<BlogPage />} />
