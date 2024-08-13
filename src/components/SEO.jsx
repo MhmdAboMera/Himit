@@ -1,17 +1,17 @@
-import React, { useEffect } from 'react';
-import { Helmet } from 'react-helmet-async';
-import Aos from 'aos'
-import 'aos/dist/aos.css'
+import React, { useEffect } from "react";
+import { Helmet } from "react-helmet-async";
+import Aos from "aos";
+import "aos/dist/aos.css";
 export default function SEO({ title, description, ogImage, keywords }) {
   useEffect(() => {
     Aos.init();
-  }, [])
+  }, []);
   return (
     <Helmet>
-      { /* Standard metadata tags */}
+      {/* Standard metadata tags */}
       <title>{title}</title>
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <link rel="canonical" href={window.location.href}/>
+      <link rel="canonical" href={window.location.href} />
       <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
       <meta name="description" content={`${description}`} />
       <meta name="keywords" content={`${keywords}`} />
@@ -39,11 +39,3 @@ export default function SEO({ title, description, ogImage, keywords }) {
     </Helmet>
   );
 }
-
-
-
-
-
-
-
-
