@@ -4,6 +4,7 @@ import CustomButton from './CustomButton'
 import { useTranslation } from 'react-i18next';
 import { ImageFun } from './ImageFun';
 import i18next from 'i18next';
+import React from "react";
 
 const CardNews = ({ news, col }) => {
     const { i18n } = useTranslation();

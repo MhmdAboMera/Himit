@@ -6,6 +6,7 @@ import { ImageFun } from "../../components/ImageFun";
 import avater from '../../assets/images/avater.jpg'
 import SectionLanding from "./SectionLanding";
 import { useGlobalState } from "../../Context";
+import React from "react";
 const HeadDepartment = () => {
   const { i18n } = useTranslation();
   const currantLang = i18n.language;

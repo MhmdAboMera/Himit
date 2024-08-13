@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-
+import React from "react";
 const MilitaryEducation = () => {
   const { t } = useTranslation();
 

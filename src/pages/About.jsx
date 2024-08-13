@@ -12,6 +12,7 @@ import Missons from "../components/Missons";
 import News from "../components/home/News";
 import Professors from "../components/home/Professors";
 import Departments from "../components/home/Departments";
+import React from "react";
 const AboutPage = () => {
   const { t, i18n } = useTranslation();
   const currentLanguage = i18n.language;

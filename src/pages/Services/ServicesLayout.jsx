@@ -3,7 +3,7 @@ import Navbar from "../../components/Navbar";
 import ScrollToTop from "../../components/ScrollToTop";
 import Footer from "../../components/Footer";
 import SideNave from "./SideNave";
-
+import React from "react";
 const ServicesLayout = () => {
   return (
     <>

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-
+import React from "react";
 const HomeSiteInfo = ({ name, title, route }) => {
     return (
         <div className="col-6 col-md-3 d-flex flex-column align-items-center">

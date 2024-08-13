@@ -2,7 +2,7 @@ import { t } from "i18next";
 import logo from "../../assets/images/himit-logo.png";
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from "react-i18next";
-
+import React from "react";
 const EducationStudentsSidnav = () => {
     const { i18n } = useTranslation();
     const currentLang = i18n.language;

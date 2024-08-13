@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import avater from "../assets/images/avater.jpg";
 import { ImageFun } from "./ImageFun";
 import { NavLink } from "react-router-dom";
-
+import React from "react";
 const UnitBoard = ({ nameAr, nameEn, photo, count }) => {
   const { i18n } = useTranslation();
   const currantLang = i18n.language;

@@ -10,6 +10,7 @@ import { useQuery } from "react-query";
 import { ImageFun } from "./ImageFun";
 import i18next from "i18next";
 import { Ri24HoursLine } from "react-icons/ri";
+import React from "react";
 const Navbar = () => {
   const { t, i18n } = useTranslation();
   const { apiUrl, seeting, seetingError, isLoadingSeeting, departments, departmentsError, isLoadingDepartments } = useGlobalState();

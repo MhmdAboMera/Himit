@@ -9,7 +9,7 @@ import { ImageFun } from '../ImageFun';
 import { useNavigate } from 'react-router-dom';
 import SocialIcons from '../SocialIcons';
 import i18next from 'i18next';
-
+import React from "react";
 const StudentFeedback = () => {
     const { i18n } = useTranslation();
     const { apiUrl } = useGlobalState();

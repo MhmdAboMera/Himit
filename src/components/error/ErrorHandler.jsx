@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 import $404 from '../../assets/images/500.png'
-
+import React from "react";
 
 const ErrorHandler = () => {
 

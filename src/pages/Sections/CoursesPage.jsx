@@ -5,7 +5,7 @@ import { useParams } from "react-router-dom";
 import SubjectModal from "./SubjectModal"; // Adjust the import path as necessary
 import { useGlobalState } from "../../Context";
 import { t } from "i18next";
-
+import React from "react";
 const CoursesPage = () => {
   const { apiUrl } = useGlobalState()
   const { i18n } = useTranslation();

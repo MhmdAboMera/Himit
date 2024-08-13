@@ -1,5 +1,6 @@
 import SocialIcons from "../SocialIcons";
 import Map from "./Map";
+import React from "react";
 import whiteLogo from "../../assets/images/logo-white.png";
 import { FaHeadphonesAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";

@@ -5,6 +5,7 @@ import '../styles/sections/sections.css'
 import unitImg from '../assets/images/unitImg.png'
 import logo from '../assets/images/himit-logo.png'
 import Missons from "../components/Missons";
+import React from "react";
 const Units = () => {
   const { t } = useTranslation();
   return (

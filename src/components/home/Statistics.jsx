@@ -4,7 +4,7 @@ import { MdCastForEducation } from "react-icons/md"
 import { useQuery } from "react-query"
 import { useGlobalState } from "../../Context"
 import { useTranslation } from "react-i18next"
-
+import React from "react";
 const Graduation = <FaGraduationCap className='icon-info text-white' />
 const users = <FaUsers className='icon-info text-white' />
 const education = <MdCastForEducation className='icon-info text-white' />

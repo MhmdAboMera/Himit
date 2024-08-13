@@ -5,6 +5,7 @@ import { useParams } from "react-router-dom";
 import SectionLanding from "./SectionLanding";
 import Missons from "../../components/Missons";
 import { useGlobalState } from "../../Context";
+import React from "react";
 const Sections = () => {
   
   const { name } = useParams();

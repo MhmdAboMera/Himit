@@ -15,6 +15,7 @@ import Statistics from "../components/home/Statistics";
 import Departments from "../components/home/Departments";
 import News from "../components/home/News";
 import Units from "../components/home/Units";
+import React from "react";
 import StudentFeedback from "../components/home/StudentFeedback";
 import MyCalendar from "../components/MyCalendar";
 import Suggestions_Complaints from "../components/Suggestions_Complaints";

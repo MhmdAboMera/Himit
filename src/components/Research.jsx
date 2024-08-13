@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { BsCalendar2Date } from 'react-icons/bs'
+import React from "react";
 const Research = ({ searches }) => {
     const { t, i18n } = useTranslation();
     const currentLanguage = i18n.language;

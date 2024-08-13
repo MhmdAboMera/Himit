@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin, FaWhatsapp, FaYoutube } from 'react-icons/fa'
 import {  FaXTwitter } from 'react-icons/fa6'
 const SocialIcons = (seeting) => {

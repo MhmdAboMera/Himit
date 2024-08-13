@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
+import React from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 export default function SEO({ title, description, ogImage, keywords }) {

@@ -3,6 +3,7 @@ import { MdFileCopy } from "react-icons/md";
 import { GoClockFill } from "react-icons/go";
 import { FaChartColumn } from "react-icons/fa6";
 import i18next from "i18next";
+import React from "react";
 const SubjectModal = ({ show, handleClose, subjectDetails, currentLang }) => {
   if (!subjectDetails || !show) return null;
   return (

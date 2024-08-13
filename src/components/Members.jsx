@@ -1,4 +1,5 @@
 import man from '../assets/images/man-prof.png'
+import React from "react";
 const Members = () => {
     return (
         <div className="members">

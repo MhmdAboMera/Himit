@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import React from "react";
 const ContactForm = () => {
   const { t, i18n } = useTranslation();
   const currentLanguage = i18n.language;

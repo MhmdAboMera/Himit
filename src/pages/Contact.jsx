@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import SEO from "../components/SEO";
 import ContactForm from "../components/contact/ContactForm";
 import ContactInfo from "../components/contact/ContactInfo";
+import React from "react";
 const ContactPage = () => {
   const { t, i18n } = useTranslation();
   return (

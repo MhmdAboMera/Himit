@@ -4,7 +4,7 @@ import SEO from "../components/SEO";
 import '../styles/students/students.css'
 import man from '../assets/images/girl.png'
 import StudentLanding from "../components/StudentLanding";
-
+import React from "react";
 const EducationStudents = () => {
     const { t, i18n } = useTranslation();
     const currentLanguage = i18n.language;

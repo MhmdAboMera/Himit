@@ -2,7 +2,7 @@ import Pagination from '../components/Pagination'
 import { useGlobalState } from '../Context';
 import axios from 'axios';
 import { useQuery } from 'react-query';
-
+import React from "react";
 const EvidencePolicy = () => {
     const { apiUrl } = useGlobalState()
     const getEvidencePolicy = async () => {

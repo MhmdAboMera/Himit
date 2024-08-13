@@ -7,6 +7,7 @@ import axios from "axios";
 import { useGlobalState } from "../Context";
 import { useParams } from "react-router-dom";
 import { Swiper, SwiperSlide } from 'swiper/react';
+import React from "react";
 // import required modules
 import { Autoplay, Pagination } from 'swiper/modules';
 import { ImageFun } from "../components/ImageFun";

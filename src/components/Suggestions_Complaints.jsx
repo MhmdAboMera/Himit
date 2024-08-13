@@ -3,7 +3,7 @@ import { useGlobalState } from '../Context';
 import SocialIcons from './SocialIcons';
 import { useTranslation } from 'react-i18next';
 import ReCAPTCHA from "react-google-recaptcha";
-
+import React from "react";
 const Suggestions_Complaints = () => {
   const { seeting } = useGlobalState();
   const { t } = useTranslation();

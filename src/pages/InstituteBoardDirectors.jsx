@@ -5,7 +5,7 @@ import { Tree, TreeNode } from 'react-organizational-chart';
 import UnitBoard from '../components/UnitBoard';
 import { useTranslation } from 'react-i18next';
 import { t } from 'i18next';
-
+import React from "react";
 const InstituteBoardDirectors = () => {
     const { apiUrl } = useGlobalState()
     const { i18n } = useTranslation();

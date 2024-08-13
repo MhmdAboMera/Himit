@@ -3,6 +3,7 @@ import SEO from "../components/SEO";
 import StudentLanding from "../components/StudentLanding";
 import man from '../assets/images/girl.png';
 import CardNews from "../components/CardNews";
+import React from "react";
 // import newsImg from '../assets/images/news-img-sec.png';
 import axios from "axios";
 import { useGlobalState } from "../Context";

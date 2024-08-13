@@ -8,6 +8,7 @@ import { useQuery } from 'react-query';
 import { useTranslation } from 'react-i18next';
 import { useGlobalState } from '../../Context';
 import { ImageFun } from '../ImageFun';
+import React from "react";
 const Landing = () => {
     const { seeting, seetingError, isLoadingSeeting, apiUrl } = useGlobalState();
     const { t, i18n } = useTranslation();

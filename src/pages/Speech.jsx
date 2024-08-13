@@ -7,6 +7,7 @@ import '../styles/speech/speech.css'
 import Members from "../components/Members";
 import { MdPhoneEnabled } from "react-icons/md";
 import { FaPlus } from "react-icons/fa";
+import React from "react";
 const Speech = () => {
     const { t, i18n } = useTranslation();
     const currentLanguage = i18n.language;

@@ -1,4 +1,5 @@
 import { BsCalendar2Date } from "react-icons/bs";
+import React from "react";
 const BasicInformation = ({ qulification, experience }) => {
     return (
         <div className="BasicInformation">

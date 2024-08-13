@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-
+import React from "react";
 const Missons = ({ vissonAr, vissonEn, messageAr, messageEn }) => {
     const { i18n } = useTranslation();
     const currantLang = i18n.language;

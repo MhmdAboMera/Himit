@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { IoIosLink } from "react-icons/io";
 import { t } from 'i18next';
+import React from "react";
 const Pagination = ({ data }) => {
     const { i18n } = useTranslation();
     const currentLanguage = i18n.language;

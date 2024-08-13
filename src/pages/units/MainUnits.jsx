@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import axios from "axios";
 import { ImageFun } from "../../components/ImageFun";
-
+import React from "react";
 const MainUnits = () => {
     const { unitName } = useParams();
     const { apiUrl } = useGlobalState()

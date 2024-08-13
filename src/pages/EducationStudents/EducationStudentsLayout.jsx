@@ -3,6 +3,7 @@ import { Outlet } from "react-router-dom";
 import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
 import EducationStudentsSidnav from "./EducationStudentsSidnav";
+import React from "react";
 const EducationStudentsLayout = () => {
     return (
         <>

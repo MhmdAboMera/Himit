@@ -1,7 +1,7 @@
 import { useContext, createContext, useState, useEffect } from "react";
 import { useQuery } from "react-query";
 import axios from "axios";
-
+import React from "react";
 const AuthContext = createContext();
 
 export function AuthContextProvider({ children }) {

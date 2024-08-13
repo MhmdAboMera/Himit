@@ -9,6 +9,7 @@ import BackToTopButton from './BackToTopButton'
 import SocialIcons from './SocialIcons'
 import { useGlobalState } from '../Context'
 import { ImageFun } from './ImageFun'
+import React from "react";
 const Footer = () => {
     const { seeting, seetingError, isLoadingSeeting ,departments , departmentsError ,isLoadingDepartments} = useGlobalState();
     const { t, i18n } = useTranslation();

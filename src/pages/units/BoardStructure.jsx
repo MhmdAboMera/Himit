@@ -6,6 +6,7 @@ import axios from "axios";
 import UnitBoard from "../../components/UnitBoard";
 import { Tree, TreeNode } from "react-organizational-chart";
 import { t } from "i18next";
+import React from "react";
 const BoardStructure = () => {
     const { unitName } = useParams();
     const { apiUrl } = useGlobalState()

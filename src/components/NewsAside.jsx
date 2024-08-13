@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useGlobalState } from '../Context';
 import { t } from 'i18next';
+import React from "react";
 const NewsAside = () => {
     const { apiUrl } = useGlobalState();
     const { i18n } = useTranslation();

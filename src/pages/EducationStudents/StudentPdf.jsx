@@ -5,6 +5,7 @@ import { useGlobalState } from '../../Context';
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { t } from 'i18next';
+import React from "react";
 const StudentPdf = () => {
     const { i18n } = useTranslation();
     const currentLang = i18n.language;

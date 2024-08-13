@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import { useParams } from "react-router-dom";
 import { ImageFun } from "../../components/ImageFun";
 import { useGlobalState } from "../../Context";
-
+import React from "react";
 const PdfDepartment = () => {
   const { i18n } = useTranslation();
   const { apiUrl } = useGlobalState()

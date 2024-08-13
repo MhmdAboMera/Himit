@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { ImageFun } from './ImageFun';
 import { CiFileOn } from 'react-icons/ci';
+import React from "react";
 import { t } from 'i18next';
 const ResearchPagination = ({ data }) => {
     const { i18n } = useTranslation();

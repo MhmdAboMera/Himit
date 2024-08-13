@@ -4,6 +4,7 @@ import axios from 'axios';
 import { useQuery } from 'react-query';
 import { useGlobalState } from '../../Context';
 import { NavLink } from 'react-router-dom';
+import React from "react";
 const EducationalPrograms = () => {
     const { i18n } = useTranslation();
     const { apiUrl } = useGlobalState()

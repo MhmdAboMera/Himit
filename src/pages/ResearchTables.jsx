@@ -5,7 +5,7 @@ import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import ResearchPagination from '../components/ResearchPagination';
 import Pagination from '../components/Pagination';
-
+import React from "react";
 const ResearchTables = () => {
     const { i18n } = useTranslation();
     const currentLang = i18n.language;

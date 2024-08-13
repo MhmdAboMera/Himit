@@ -1,4 +1,5 @@
 import axios from "axios";
+import React from "react";
 import { useQuery } from "react-query";
 import { useGlobalState } from "../../Context";
 import CardNews from "../CardNews";

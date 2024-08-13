@@ -6,6 +6,7 @@ import { useQuery } from 'react-query';
 import { ImageFun } from '../ImageFun';
 import { NavLink } from 'react-router-dom';
 import i18next from 'i18next';
+import React from "react";
 const Units = () => {
     const { apiUrl } = useGlobalState()
     const { i18n } = useTranslation();

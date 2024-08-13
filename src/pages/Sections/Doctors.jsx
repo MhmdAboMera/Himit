@@ -7,6 +7,7 @@ import avater from "../../assets/images/avater.jpg";
 import SectionLanding from "./SectionLanding";
 import SocialIcons from "../../components/SocialIcons";
 import { useGlobalState } from "../../Context";
+import React from "react";
 const Doctors = () => {
   const { i18n } = useTranslation();
   const currantLang = i18n.language;

@@ -11,6 +11,7 @@ import { FaFile, FaWhatsapp } from 'react-icons/fa';
 import { MdMailOutline } from 'react-icons/md';
 import { FaLocationDot } from 'react-icons/fa6';
 import Professors from '../components/home/Professors';
+import React from "react";
 const Managers = () => {
     const { t, i18n } = useTranslation();
     const currantLang = i18n.language;

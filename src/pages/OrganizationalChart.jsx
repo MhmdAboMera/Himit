@@ -1,7 +1,7 @@
 import Professors from '../components/home/Professors';
 import { ImageFun } from '../components/ImageFun'
 import { useGlobalState } from '../Context'
-
+import React from "react";
 const OrganizationalChart = () => {
     const { seeting } = useGlobalState();
     return (

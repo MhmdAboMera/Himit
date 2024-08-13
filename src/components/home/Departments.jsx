@@ -6,6 +6,7 @@ import { useTranslation } from 'react-i18next';
 import { ImageFun } from '../ImageFun';
 import { useGlobalState } from '../../Context';
 import i18next from 'i18next';
+import React from "react";
 const Departments = () => {
     const { apiUrl, departments, departmentsError, isLoadingDepartments, } = useGlobalState()
     const { i18n } = useTranslation();

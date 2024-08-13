@@ -1,5 +1,6 @@
 import girl from '../../assets/images/girl.png'
 import { useGlobalState } from '../../Context';
+import React from "react";
 const Message = () => {
     const { seeting, seetingError, isLoadingSeeting } = useGlobalState();
 

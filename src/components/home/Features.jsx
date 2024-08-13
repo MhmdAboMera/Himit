@@ -2,7 +2,7 @@ import axios from "axios";
 import { useTranslation } from "react-i18next";
 import { useQuery } from "react-query";
 import { useGlobalState } from "../../Context";
-
+import React from "react";
 const Features = () => {
     const { t, i18n } = useTranslation();
     const { apiUrl } = useGlobalState()

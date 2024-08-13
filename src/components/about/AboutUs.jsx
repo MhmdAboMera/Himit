@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import aboutImg2 from '../../assets/images/about-raound.jpg'
 import { useGlobalState } from '../../Context';
 import { ImageFun } from '../ImageFun';
+import React from "react";
 
 const AboutUs = () => {
     const { t, i18n } = useTranslation();
