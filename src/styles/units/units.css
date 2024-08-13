@@ -1,0 +1,208 @@
+/* units-land */
+.units-land {
+    position: relative;
+    background-color: #eee;
+}
+
+.units-land .heed {
+    color: #AD2026;
+}
+
+.units-land .logo-img-unit {
+    max-width: 100px;
+    position: absolute;
+    left: 25px;
+    top: -7px;
+}
+
+.units-land .text-box {
+    max-width: 640px;
+}
+
+.units-land .img-box {
+    height: 600px;
+}
+
+.units-land .img-box img {
+    height: 100%;
+    height: 100%;
+}
+
+@media (max-width:1440px) {
+    .units-land .img-box {
+        height: 500px;
+    }
+}
+
+@media (max-width:1024px) {
+    .units-land .img-box {
+        height: 360px;
+    }
+
+    .units-land .logo-img-unit {
+        max-width: 75px;
+    }
+}
+
+@media (max-width:768px) {
+    .units-land .img-box {
+        height: 260px;
+    }
+
+    .units-land .logo-img-unit {
+        max-width: 50px;
+    }
+}
+
+@media (max-width:567px) {
+
+    .units-land .logo-img-unit,
+    .units-land .img-box {
+        display: none !important;
+    }
+}
+
+body:lang(en) .units-land .img-box img {
+    transform: scaleX(-1);
+}
+
+body:lang(en) .units-land .logo-img-unit {
+    right: 25px;
+    left: auto;
+    top: -7px;
+}
+
+
+/*end units-land */
+/*units-goals */
+.units-goals {
+    position: relative;
+    background-image: url('../../assets/images/map-bg.png');
+    background-size: 100% 100%;
+
+}
+
+.units-goals .heed {
+    color: #AD2026;
+}
+
+.units-goals .goals-name {
+    position: relative;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.units-goals .goals-name::after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 55%;
+    background-color: #AD2026;
+    top: 0px;
+    /* left: 0px; */
+    left: 90px;
+    transform: rotate(-27deg);
+}
+
+.units-goals .goals-name::before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 55%;
+    background-color: #AD2026;
+    bottom: -4px;
+    left: 89px;
+    /* left: -1px; */
+    transform: rotate(-152deg);
+}
+
+.units-goals .goals-name p {
+    position: relative;
+    z-index: 3;
+
+}
+
+.units-goals .goals-name .bg-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.first-arrow {
+    position: absolute;
+    color: #AD2026;
+}
+
+.gol-text {
+    position: relative;
+}
+
+.gol-text::after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 134px;
+    background-color: #AD2026;
+    top: -96px;
+    left: -107px;
+    transform: rotate(-27deg);
+}
+
+.gol-text::before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 130px;
+    background-color: #AD2026;
+    bottom: -112px;
+    left: -107px;
+    transform: rotate(-152deg);
+}
+
+@media (max-width:1024px) {
+    .units-goals .goals-name::before {
+        left: 30px;
+    }
+
+    .units-goals .goals-name::after {
+        left: 30px;
+    }
+}
+
+@media (max-width:768px) {
+    .units-goals .goals-name::before {
+        display: none;
+    }
+
+    .units-goals .goals-name::after {
+        display: none;
+    }
+}
+
+.goal-name2::after,
+.goal-name2::before {
+    background-color: #1A3051 !important;
+}
+
+.goal-name3::after,
+.goal-name3::before {
+    background-color: #3f5def !important;
+}
+
+.goal-name2 .gol-text::after,
+.goal-name2 .gol-text::before {
+    background-color: #1A3051 !important;
+}
+
+.goal-name3 .gol-text::after,
+.goal-name3 .gol-text::before {
+    background-color: #3f5def !important;
+}
+
+/*end units-goals */

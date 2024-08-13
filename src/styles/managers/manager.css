@@ -1,0 +1,46 @@
+.info-manager .contact_col {
+    background-color: #000;
+    position: relative;
+}
+
+.info-manager .contact_col::after {
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: 12px;
+    background-color: #AD2026;
+    border-radius: 2px;
+    bottom: -22px;
+    right: 0;
+}
+
+.info-manager .contact_col svg {
+    color: #AD2026;
+    font-size: 25px;
+}
+
+.info-manager .heed {
+    color: #AD2026;
+    position: relative;
+    width: fit-content;
+    padding: 0px 0px 12px 0px;
+}
+
+.info-manager .heed::after {
+    content: '';
+    background-color: #AD2026;
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    bottom: 0;
+    right: 0;
+}
+
+@media (max-width:768px) {
+    iframe {
+        height: 400px !important;
+    }
+}
+
+

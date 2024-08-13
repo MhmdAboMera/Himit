@@ -1,0 +1,142 @@
+/* land-student */
+.land-student {
+    position: relative;
+    background-image: url('../../assets/images/student-bg.png');
+    background-size: 100% 100%;
+    padding-top: 3rem;
+}
+
+.land-student .heed {
+    color: #AD2026;
+}
+
+.land-student .img-box {
+    height: 450px;
+}
+
+
+.land-student .img-box img {
+    object-fit: contain;
+    height: 100%;
+}
+
+@media (max-width:1024px) {
+    .land-student .img-box {
+        height: 350px;
+    }
+}
+
+@media (max-width:768px) {
+    .land-student .img-box {
+        height: 250px;
+
+    }
+
+    .land-student {
+        padding-top: 1rem;
+    }
+
+}
+
+@media (max-width:567px) {
+    .land-student .img-box {
+        display: none;
+
+    }
+
+    .land-student {
+        background-image: none;
+
+    }
+}
+
+body:lang(en) .land-student {
+    transform: scaleX(-1);
+}
+
+body:lang(en) .land-student .container {
+    transform: scaleX(-1);
+}
+
+body:lang(en) .land-student .img-box img {
+    transform: scaleX(-1);
+}
+
+/*end land-student */
+/*kfs-kafrElSheikh */
+.kfs-kafrElSheikh {
+    position: relative;
+    background-image: url(/src/assets/images/kfs-kafrElSheikh-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.kfs-kafrElSheikh::after {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #ffffff80;
+    z-index: 1;
+}
+
+.kfs-kafrElSheikh .container {
+    position: relative;
+    z-index: 3;
+}
+
+.kfs-kafrElSheikh .heed {
+    padding-bottom: 16px;
+    position: relative;
+    max-width: 400px;
+}
+
+.kfs-kafrElSheikh .heed::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 5px;
+    border-radius: 3px;
+    background-color: #AD2026;
+    bottom: 0;
+    right: 0;
+}
+
+.video-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.video-box video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width:1024px) {
+    .kfs-kafrElSheikh {
+        height: 480px;
+    }
+}
+
+@media (max-width: 768px) {
+    .kfs-kafrElSheikh {
+        height: 360px;
+    }
+}
+
+@media (max-width: 567px) {
+    .kfs-kafrElSheikh {
+        height: auto;
+    }
+}
+
+/*end kfs-kafrElSheikh */

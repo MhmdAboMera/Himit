@@ -1,0 +1,110 @@
+/* speech */
+.speech {
+    position: relative;
+    background-color: #eee;
+}
+
+.speech::after {
+    content: '';
+    position: absolute;
+    width: 350px;
+    height: 100%;
+    background-color: #1A3051;
+    border-radius: 290px;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    z-index: 2;
+}
+
+.speech .container {
+    position: relative;
+    z-index: 3;
+}
+
+.speech .speech-heed {
+    color: #AD2026;
+}
+
+@media (max-width:567px) {
+    .speech::after {
+        display: none;
+    }
+
+}
+
+body:lang(en) .speech::after {
+    left: auto;
+    right: 0;
+}
+
+/*end speech */
+/*problems-contact */
+.problems-contact {
+    margin-top: 120px;
+    padding-top: 20px;
+    position: relative;
+    background-color: #1A3051;
+}
+.bg-wave svg {
+    position: absolute;
+    top: -318px;
+    z-index: 1;
+}
+.Suggestions_Complaints .problems-contact {
+    margin-top: 10px !important;
+}
+.problems-contact .container {
+    position: relative;
+    z-index: 2;
+}
+
+.problems-contact .phone-icon {
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #E9E9E9;
+    color: #1A3051;
+}
+
+.problems-contact .puls-icons {
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+}
+
+@media (max-width: 1440px) {
+    .bg-wave svg {
+        top: -240px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .bg-wave svg {
+        top: -170px;
+    }
+}
+
+@media (max-width: 768px) {
+    .bg-wave svg {
+        top: -130px;
+    }
+}
+
+@media (max-width: 567px) {
+    .bg-wave svg {
+        display: none;
+    }
+
+    .problems-contact {
+        margin-top: 0px;
+    }
+}
+
+body:lang(en) .problems-contact .puls-icons {
+    left: 50px;
+    right: auto;
+}
+
+/*end problems-contact */
